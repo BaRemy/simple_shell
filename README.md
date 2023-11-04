@@ -17,3 +17,5 @@ You should have an AUTHORS file at the root of your repository, listing all indi
 ## Compilation
  
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+Authors:MUGABE Robert:https://github.com/mugabe-rob
+Bahati Remmy:www.github.com/BaRemy
