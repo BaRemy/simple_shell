@@ -9,4 +9,4 @@
 /* Entry point of the shell */
 void start(general_t *info);
 
-#endif
+#endif /*MAIN_H*/
