@@ -8,14 +8,14 @@
  * @new_size: New size, in bytes of the new memory block
  *
  * Return: Memory reallocated
- */
+ **/
 void *_realloc(void *ptr, size_t old_size, size_t new_size)
 {
 	char *s, *aux;
 	unsigned int a;
 
 	if (new_size == old_size)
-		return ptr;
+		return (ptr);
 
 	if (ptr == NULL)
 	{
@@ -44,3 +44,4 @@ void *_realloc(void *ptr, size_t old_size, size_t new_size)
 
 	return (s);
 }
+
