@@ -3,7 +3,8 @@
 
 #include <stdlib.h>
 
-/* memory */
+
+/* memory.c */
 void *_realloc(void *ptr, size_t old_size, size_t new_size);
 
 /* free.c */
