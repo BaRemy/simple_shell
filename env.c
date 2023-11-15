@@ -5,7 +5,7 @@
  *
  * @info: General information about the shell
  * @arguments: Command
- */
+ **/
 void bin_env(general_t *info, char **arguments)
 {
 	(void) info;
