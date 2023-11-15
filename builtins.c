@@ -8,7 +8,7 @@
  *
  * Return: If the command passed is a builtins
  * return _TRUE if not return _FALSE
- */
+ **/
 int builtins(general_t *info, char **arguments)
 {
 	int status;
@@ -20,6 +20,7 @@ int builtins(general_t *info, char **arguments)
 	return (_TRUE);
 }
 
+
 /**
  * check_builtin - Check if the actual command is a builtin_t
  * or not
@@ -29,8 +30,8 @@ int builtins(general_t *info, char **arguments)
  *
  * Return: If the command is an actual builtin, return _TRUE
  * if not _FALSE
- */
-int check_builtin(general_t info, char **arguments)
+ **/
+int check_builtin(general_t *info, char **arguments)
 {
 	int i, size;
 	builtin_t builtins[] = {
@@ -50,3 +51,4 @@ int check_builtin(general_t info, char **arguments)
 
 	return (_FALSE);
 }
+
