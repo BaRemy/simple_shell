@@ -8,7 +8,7 @@
  *
  * Return: On success 1
  * On error -1
- */
+ **/
 int _putchar(char c)
 {
 	return (write(STDOUT, &c, 1));
@@ -20,8 +20,8 @@ int _putchar(char c)
  * @msg: Message to print
  *
  * Return: On success number of bytes printed
- * On error -1, and set the error
- */
+ * On errror -1, and set the error
+ **/
 int print(char *msg)
 {
 	return (print_to_fd(msg, STDOUT));
